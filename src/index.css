@@ -39,4 +39,10 @@ body {
   text-align: right;
   background-color: #131a26;
   color: white;
+  font-size: 30px;
+}
+
+.display span {
+  font-size: 15px;
+  color: grey;
 }
