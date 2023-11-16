@@ -23,13 +23,10 @@ function App() {
                 </div>
 
                 <div className="operators">
-                    <button style={{ backgroundColor: 'blue', color: 'white', padding: '10px 20px', border: 'none' }}>
-                        Click me
-                    </button>
+                    <button>/</button>
                     <button>*</button>
                     <button>+</button>
                     <button>-</button>
-
                     <button>DEL</button>
                 </div>
 
