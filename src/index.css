@@ -50,8 +50,14 @@ body {
 button {
   font-size: 20px;
   padding: 15px;
-  color: rgba(44, 15, 207, 0.548);
+  color: rgba(255, 255, 255, 0.548);
+  border: none;
+  cursor: pointer;
+  color: white;
+}
 
+button :hover {
+  opacity: 0.9;
 }
 
 .operators {
@@ -59,5 +65,19 @@ button {
 }
 
 .operators button {
-  flex: 1 1 0%;
+  flex: 1 1 auto;
+  background-color: #ff0055;
+  font-weight: 700;
+}
+
+.digits {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.digits button {
+  flex: 1 1 26%;
+  background-color: #131a26;
+  font-weight: 700;
+
 }
